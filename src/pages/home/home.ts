@@ -40,7 +40,7 @@ export class HomePage {
 
   deletePhoto(index){
     let confirm = this.alertCtrl.create({
-      title: 'Sure you want to delete this ophoto?',
+      title: 'Sure you want to delete this photo?',
       message: '',
       buttons: [
         {
